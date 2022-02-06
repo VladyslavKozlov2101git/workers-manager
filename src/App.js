@@ -39,7 +39,7 @@ function App() {
       <DialogComponent
         open={open}
         onClose={closeModal}
-        children={<CreateUserForm></CreateUserForm>}></DialogComponent>
+        children={<CreateUserForm onClose={closeModal}></CreateUserForm>}></DialogComponent>
     </div>
   );
 }

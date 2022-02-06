@@ -1,6 +1,19 @@
 .MuiDialog-paper {
   overflow-y: unset !important;
 }
+.closeBtn {
+  background: #fff;
+  outline: none;
+  border: none;
+  display: flex;
+  cursor: pointer;
+  margin-left: auto;
+  padding: 20px 20px;
+  img {
+    width: 20px;
+    height: 20px;
+  }
+}
 
 .dialog_wrapper {
   background: #fff;
@@ -14,7 +27,7 @@
   text-align: center;
   @media (min-width: 980px) {
     > div {
-      width: 960px !important;
+      width: 600px !important;
       height: 600px !important;
     }
   }
